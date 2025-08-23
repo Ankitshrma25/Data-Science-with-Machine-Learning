@@ -87,6 +87,8 @@ def submit():
         total_score=(science+maths+c+data_science)/4
     return redirect(url_for('successres',score=int(total_score)))       
 
+    
+
 
 
 ## Entery point of the app.py file
